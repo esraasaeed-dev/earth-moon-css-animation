@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("image/space_background.png");
+}
+
+.earth {
+  width: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moon {
+  position: absolute;
+  width: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white;
+  display: flex;
+  animation: moon-animation 5s linear infinite;
+}
+
+.earth-image,
+.moon-image {
+  width: 100%;
+}
+
+@keyframes moon-animation {
+  from {
+    transform: rotate(0) translateY(-100px);
+  }
+  to {
+    transform: rotate(1turn) translateY(-100px);
+  }
+}
