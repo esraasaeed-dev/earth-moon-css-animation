@@ -10,7 +10,7 @@ An Earth and Moon animation built with **HTML and CSS**, featuring the Moon orbi
 
 ## Live Demo
 
-[View Live Demo](YOUR_LIVE_DEMO_LINK)
+[View Live Demo](https://esraasaeed-dev.github.io/earth-moon-css-animation/)
 
 ## Learning Context
 
